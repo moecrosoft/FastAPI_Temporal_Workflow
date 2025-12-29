@@ -62,13 +62,13 @@ curl -X POST http://127.0.0.1:8000/jobs \
 -H "Content-Type: application/json" \
 -d '{"input":{"numbers":[1,2,3,4]},"options":{"fail_first_attempt":true}}'
 ```
----
-
-## Output in VSCode terminal
-
-![output.jpg]
 
 ## 9. Send a get request to query the workflow progress
 ```
 curl http://127.0.0.1:8000/jobs/job-<id>
 ```
+---
+
+## Output in VSCode terminal
+
+![output.jpg]
