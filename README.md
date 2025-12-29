@@ -18,7 +18,6 @@ ChatGPT is utilized to learn about FastAPI, Temporal and Docker. It is also util
 
 ```
 git clone <repo-url>
-cd temporal
 ```
 
 
@@ -71,4 +70,4 @@ curl http://127.0.0.1:8000/jobs/job-<id>
 
 ## Output in VSCode terminal
 
-![output.jpg]
+![Terminal Output][output.jpg]
