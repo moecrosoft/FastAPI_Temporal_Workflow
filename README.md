@@ -8,7 +8,7 @@ ChatGPT is utilized to learn about FastAPI, Temporal and Docker. It is also util
 
 ## Prerequisites
 
-- Python 3.11
+- Python 3+
 - Docker & Docker Compose
 - `pip` (Python package manager)
 
@@ -56,5 +56,6 @@ curl -X POST http://127.0.0.1:8000/jobs \
 -d '{"input":{"numbers":[1,2,3,4]},"options":{"fail_first_attempt":true}}'
 
 ## 9. Send a get request to query the workflow progress
-
+```
 curl http://127.0.0.1:8000/jobs/job-<id>
+```
