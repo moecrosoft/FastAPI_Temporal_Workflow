@@ -70,4 +70,4 @@ curl http://127.0.0.1:8000/jobs/job-<id>
 
 ## Output in VSCode terminal
 
-![Terminal Output][output.jpg]
+![Terminal Output](output.jpg)
